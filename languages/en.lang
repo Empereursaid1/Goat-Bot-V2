@@ -93,7 +93,7 @@ handlerEvents.userBanned=You have been banned from using the bot\n» Reason: %1\
 handlerEvents.threadBanned=This group has been banned from using the bot\n» Reason: %1\n» Time: %2\n» Thread ID: %3
 handlerEvents.onlyAdminBox=This group is currently enabled only group administrators can use the bot
 handlerEvents.onlyAdminBot=❌ | 𝐀𝐜𝐭𝐮𝐞𝐥𝐥𝐞𝐦𝐞𝐧𝐭 𝐬𝐞𝐮𝐥 𝐦𝐨𝐧 𝐚𝐝𝐦𝐢𝐧 𝐩𝐞𝐮𝐭 𝐮𝐭𝐢𝐥𝐢𝐬𝐞𝐫 𝐥𝐞 𝐛𝐨𝐭 \n━━━━━━━━❪🥷❫━━━━━━━━\n🥷𝐏𝐀𝐁𝐋𝐎🥷
-handlerEvents.commandNotFound= 🚫 𝐂𝐞𝐭𝐭𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐧'𝐞𝐱𝐢𝐬𝐭𝐞 𝐩𝐚𝐬 🚫𝐓𝐀𝐏𝐄 ☞︎︎︎+help☜︎︎︎
+handlerEvents.commandNotFound= 🚫 𝐂𝐞𝐭𝐭𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐧'𝐞𝐱𝐢𝐬𝐭𝐞 𝐩𝐚𝐬 🚫𝐭𝐚𝐩𝐞 ☞︎︎︎+help☜︎︎︎ 𝐩𝐨𝐮𝐫 𝐯𝐨𝐢𝐫 𝐥𝐞𝐬 𝐂𝐌𝐃𝐬
 handlerEvents.commandNotFound2=➪𝐒𝐎𝐔𝐑𝐂𝐄 𝐃𝐔 𝐁𝐎𝐓𖤍 \n𖤍━━━━━━━━━━━━━━━𖤍\n👑𝐂𝐑𝐄𝐀𝐓𝐄𝐔𝐑 :         ᏋᎷᎮᏋᏒᏋᏬᏒ ᏕᎤᎥᎴ           𖤍━━━━━━━━━━━━━━━𖤍  \n❦︎𝐋𝐈𝐄𝐍 𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊:  https://www.facebook.com/profile.php?id=61550814914251 \n𖤍━━━━━━━━━━━━━━━𖤍  👑..ᏋᎷᎮᏋᏒᏋᏬᏒ ᏕᎤᎥᎴ..👑
 handlerEvents.commandSyntaxError=The command you are using is wrong syntax, please type %1help %2 to see the details of how to use this command
 handlerEvents.onlyAdmin=❌ | Only group administrators can use the command "%1" \n______________ \n👑.ᏕᎤᎥᎴ.👑

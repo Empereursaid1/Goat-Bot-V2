@@ -38,13 +38,13 @@ module.exports = {
       } else {
         // If not, add the user to the group chat
         await api.addUserToGroup(event.senderID, threadID);
-        api.sendMessage("🎊 | 𝐓'𝐚𝐬 𝐛𝐢𝐞𝐧 𝐞𝐭𝐞 𝐚𝐣𝐨𝐮𝐭𝐞 𝐚𝐮 𝐠𝐫𝐨𝐮𝐩𝐞 🥷🂱➪ 𝐏𝐀𝐁𝐋𝐎 𖤍 𝐆𝐂....🂱🥷☞︎︎︎𖤍𝐁𝐎𝐓𖤍☜︎︎︎", event.threadID);
+        api.sendMessage("🎊 | 𝐓'𝐚𝐬 𝐛𝐢𝐞𝐧 𝐞𝐭𝐞 𝐚𝐣𝐨𝐮𝐭𝐞 𝐚𝐮 𝐠𝐫𝐨𝐮𝐩𝐞 💦🂱➪ 𝐏𝐀𝐁𝐋𝐎 💦𝐆𝐂....🂱💦☞︎︎︎𖤍𝐏𝐋𝐀𝐘𖤍☜︎︎︎", event.threadID);
 
         // Set 😉 reaction for successfully added user
         api.setMessageReaction("✨", event.messageID, "🥷", api);
       }
     } catch (error) {
-      api.sendMessage("🚫 | ❌𝐄́𝐂𝐇𝐄𝐂 𝐃𝐄 𝐋'𝐀𝐉𝐎𝐔𝐓 ❌   🥷𝐑𝐄́𝐄𝐒𝐒𝐀𝐘𝐄🥷", event.threadID);
+      api.sendMessage("🚫 | ❌𝐄́𝐂𝐇𝐄𝐂 𝐃𝐄 𝐋'𝐀𝐉𝐎𝐔𝐓 ❌   💦𝐑𝐄́𝐄𝐒𝐒𝐀𝐘𝐄💦", event.threadID);
 
       // Set 🙅🏾 reaction for failed adding user
       api.setMessageReaction("💀", event.messageID, "👍", api);

@@ -1,4 +1,4 @@
-..const fs = require("fs-extra");
+...const fs = require("fs-extra");
 const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
@@ -34,7 +34,7 @@ module.exports = {
       const categories = {};
       let msg = "";
 
-      msg += `\n█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█ ❐❐❐𝐒𝐀𝐈𝐃 𝐂𝐎𝐌𝐌𝐀𝐍𝐃❐❐❐    \n█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█`; // replace with your name 
+      msg += `\n●▬▬▬▬๑۩۩๑▬▬▬▬▬● ❐❐❐𝐒𝐀𝐈𝐃 𝐂𝐎𝐌𝐌𝐀𝐍𝐃❐❐❐    \n●▬▬▬▬๑۩۩๑▬▬▬▬▬●`; // replace with your name 
 
       for (const [name, value] of commands) {
         if (value.config.role > 1 && role < value.config.role) continue;
@@ -46,7 +46,7 @@ module.exports = {
 
       Object.keys(categories).forEach((category) => {
         if (category !== "info") {
-          msg += `\n▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃\n│ ➪『  ${category.toUpperCase()}  』`;
+          msg += `\n█━━━━━━━ ⸙ ━━━━━━━█\n│ ➪『  ${category.toUpperCase()}  』`;
 
 
           const names = categories[category].commands.sort();
@@ -55,7 +55,7 @@ module.exports = {
             msg += `\n│ ${cmds.join(" ".repeat(Math.max(1, 10 - cmds.join("").length)))}`;
           }
 
-          msg += `\n▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃`;
+          msg += `\n█━━━━━━━ ⸙ ━━━━━━━█`;
         }
       });
 
@@ -127,4 +127,4 @@ function roleTextToString(roleText) {
     default:
       return "Unknown role";
   }
-                      }
+      }

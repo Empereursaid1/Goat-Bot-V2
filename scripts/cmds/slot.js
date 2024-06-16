@@ -27,7 +27,7 @@ module.exports = {
         return message.reply("👽𝐃𝐞́𝐬𝐨𝐥𝐞́ 𝐭𝐮 𝐧'𝐚 𝐩𝐥𝐮𝐬 𝐝'𝐚𝐫𝐠𝐞𝐧𝐭 𝐩𝐨𝐮𝐫 𝐣𝐨𝐮𝐞𝐫 𝐚̀ 𝐜𝐞 𝐣𝐞𝐮𝐱🧸.");
       }
 
-      const sentMessage = await message.reply("🎁 🎁 🎁");
+      const sentMessage = await message.reply("🛑 🛑 🛑");
 
       const emojis = ['💥', '💥', '💵'];
       emojis.sort(() => Math.random() - 0.5); 
@@ -56,7 +56,7 @@ module.exports = {
       const userAnswer = event.body.trim();
 
       if (isNaN(userAnswer) || userAnswer < 1 || userAnswer > 3) {
-        return message.reply(" 🎁 𝗥𝗲𝗽𝗼𝗻𝗱𝗲𝘇 𝗽𝗮𝗿  1 ; 2 𝗼𝘂 3.");
+        return message.reply(" 🛑 𝗥𝗲𝗽𝗼𝗻𝗱𝗲𝘇 𝗽𝗮𝗿  1 ; 2 𝗼𝘂 3.");
       }
 
       const gemPosition = Reply.correctAnswer;

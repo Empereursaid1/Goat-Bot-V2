@@ -27,11 +27,11 @@ module.exports = {
       
       const uptimeString = `➪${days} 𖤍𝐃𝐀𝐘𝐒𖤍, 
 
-➪${hours} 𖤍𝐇𝐎𝐔𝐑𝐒𖤍, 
+➪${hours} 💦𝐇𝐎𝐔𝐑𝐒💦, 
 
-➪${minutes} 𖤍𝐌𝐈𝐍𝐔𝐓𝐄𝐒𖤍, 
+➪${minutes} 💦𝐌𝐈𝐍𝐔𝐓𝐄𝐒💦, 
 
-➪${seconds} 𖤍𝐒𝐄𝐂𝐎𝐍𝐃𝐒𖤍`;
+➪${seconds} 💦𝐒𝐄𝐂𝐎𝐍𝐃𝐒💦`;
       
       api.sendMessage(`👑⊢⊣|𝐓𝐈𝐌𝐄|⊢⊣👑 \n${uptimeString}`, event.threadID);
     } catch (error) {

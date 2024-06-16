@@ -22,21 +22,21 @@ module.exports = {
   onStart: async function ({ event, message, usersData, api, args }) {
     if (args.length === 1 && args[0] === "list") {
       const categories = [
-        "𝐠𝐤",
-        "𝐦𝐮𝐬𝐢𝐜",
-        "𝐯𝐢𝐝𝐞𝐨𝐠𝐚𝐦𝐞",
-        "𝐧𝐚𝐭𝐮𝐫𝐞𝐬𝐜𝐢𝐞𝐧𝐜𝐞",
-        "𝐜𝐨𝐦𝐩𝐮𝐭𝐞𝐫𝐬𝐜𝐢𝐞𝐧𝐜𝐞",
-        "𝐦𝐚𝐭𝐡",
-        "𝐦𝐲𝐭𝐡𝐨𝐥𝐨𝐠𝐲",
-        "𝐬𝐩𝐨𝐫𝐭𝐬",
-        "𝐠𝐞𝐨𝐠𝐫𝐚𝐩𝐡𝐲",
-        "𝐡𝐢𝐬𝐭𝐨𝐫𝐲",
-        "𝐩𝐨𝐥𝐢𝐭𝐢𝐜𝐬",
-        "𝐚𝐫𝐭",
-        "𝐜𝐞𝐥𝐞𝐛𝐫𝐞𝐭𝐲",
-        "𝐚𝐧𝐢𝐦𝐞",
-        "𝐜𝐚𝐫𝐭𝐨𝐨𝐧"
+        "gk",
+        "music",
+        "videogame",
+        "naturescience",
+        "computerscience",
+        "math",
+        "mythology",
+        "sports",
+        "geography",
+        "history",
+        "politics",
+        "art",
+        "celebrety",
+        "anime",
+        "cartoon"
       ];
       return message.reply(`Available categories: ${categories.join(", ")}`);
     } else if (args.length === 1 && args[0] === "top") {

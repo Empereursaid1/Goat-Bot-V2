@@ -23,7 +23,7 @@ module.exports = {
 			restartting: "🔄 | Đang khởi động lại bot..."
 		},
 		en: {
-			restartting: "🔄 | 𝐑𝐄𝐒𝐓𝐀𝐑𝐓𝐈𝐍 (`へ´≠) 𝐁𝐎𝐓..."
+			restartting: "🔄 | 𝐑𝐄𝐒𝐓𝐀𝐑𝐓𝐈𝐍𝐆 (`へ´≠) 𝐁𝐎𝐓..."
 		}
 	},
 
@@ -31,7 +31,7 @@ module.exports = {
 		const pathFile = `${__dirname}/tmp/restart.txt`;
 		if (fs.existsSync(pathFile)) {
 			const [tid, time] = fs.readFileSync(pathFile, "utf-8").split(" ");
-			api.sendMessage(`✅ | 𝗕𝗢𝗧 (⁠⌐⁠■⁠-⁠■⁠) |𝗥𝗘𝗦𝗧𝗔𝗥𝗧𝗥𝗗 \n🟢 | Time: ${(Date.now() - time) / 1000}s`, tid);
+			api.sendMessage(`✅ | 𝗕𝗢𝗧 (⁠⌐⁠■⁠-⁠■⁠) |𝗥𝗘𝗦𝗧𝗔𝗥𝗧𝗘𝗗 \n🟢 | Time: ${(Date.now() - time) / 1000}s`, tid);
 			fs.unlinkSync(pathFile);
 		}
 	},
